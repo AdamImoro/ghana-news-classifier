@@ -1,0 +1,49 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Machine-learning data and artifacts
+data/
+datasets/
+models/
+checkpoints/
+artifacts/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Logs and experiment tracking
+logs/
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+*.log
+
+# Build and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+build/
+dist/
+*.egg-info/
